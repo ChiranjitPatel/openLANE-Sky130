@@ -12,3 +12,8 @@ flow.tcl is the file that invokes openLANE, and it is used in the interactive mo
 The next step is to import the various packages required to run openLANE. This is done by the package require command as shown below, and the next step is to prepare our design. Iam preparing the picorv32 design. Do the following step:
 ![](images/2/prep.png)
 It should look like this after your design has been prep'ed.
+![](images/2/syn.png)
+Synthesis of the design is done using the run_synthesis command as shown above.
+Synthesis completion is shown as:
+![](images/2/syn_com)
+
