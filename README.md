@@ -15,5 +15,22 @@ It should look like this after your design has been prep'ed.
 ![](images/2/syn.png)
 Synthesis of the design is done using the run_synthesis command as shown above.
 Synthesis completion is shown as:
-![](images/2/syn_com)
+![](images/2/syn_com.png)
 
+# Day2-Chip floorplanning and placement
+
+Floorplan Viewing in Magic
+We need to provide three files as input to imagine our floorplan in Magic:
+magic tech file, Floorplan Def file and LEF File Merged.
+This command is executed in the results/floorplan folder, the merged file is present two levels up, hence the ../../ and the def file is pressent in the floorplan folder.
+![](images/2/floorplan_view.png)
+After executing this command, magic invokes showing us the floorplan:
+![](images/2/floor_mag.png)
+PLACEMENT
+This is done by using the run_placement command.
+![](images/2/placement.png)
+
+Magic is again invoked to view the placement of cells, and this is done as follows:
+![](images/2/place_view.png)
+
+# Day 3 - Design and characterize one library cell using Magic Layout tool and ngspice
