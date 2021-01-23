@@ -8,9 +8,7 @@ We are concerned with the high density library, as shown in the below figure. Th
 
 
 flow.tcl is the file that invokes openLANE, and it is used in the interactive mode, in order to understand the flow.
-1[](images/2/flow.png)
-The next step is to import the various packages required to run openLANE. This is done by the package require command as shown below.
+![](images/2/flow.png)
+The next step is to import the various packages required to run openLANE. This is done by the package require command as shown below, and the next step is to prepare our design. Iam preparing the picorv32 design. Do the following step:
 ![](images/2/prep.png)
-
-The next step is to prepare our design. Iam preparing the jpeg_encoder design. Do the following step:
 It should look like this after your design has been prep'ed.
