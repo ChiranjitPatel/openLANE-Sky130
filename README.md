@@ -1,4 +1,4 @@
-# openLANE-Sky130
+# OpenLANE-Sky130
 The work done during the advanced physical design using the openlane/sky130nm workshop is illustrated in this repository. This is a cloud-based workshop offered by VSD for 5 days. The main objective here is to create, without human interference, a full and clean GDSII.
 
 # Day1-Inception of EDA, OpenLANE and Sky130 PDK open-source
@@ -47,6 +47,8 @@ Refer to: https://github.com/nickson-jose/vsdstdcelldesign for cell files.
 ![](images/3/7.png)
 ![](images/3/8.png)
 ![](images/3/9.png)
+
+# Day 4 - Pre-layout timing analysis and importance of good clock tree
 ![](images/3/10.png)
 ![](images/3/11.png)
 ![](images/3/12.png)
