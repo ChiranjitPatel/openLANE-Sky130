@@ -85,6 +85,9 @@ Type "LEF write". This is create a LEF file.
 generated file:
 ![](images/3/12.png)
 ![](images/3/13.png)
+
+RUN CTS
+To run Clock tree Synthesis, the steps till placement have to be performed. Once this is complete cts is done as follows :
 ![](images/4/1.png)
 ![](images/4/2.png)
 ![](images/4/3.png)
@@ -106,4 +109,4 @@ Nickson Jose - VSD VLSI Engineer
 
 Kunal Ghosh - Co-founder (VSD Corp. Pvt. Ltd)
 
-Praharsha
+Praharsha (Teaching Assistant)
