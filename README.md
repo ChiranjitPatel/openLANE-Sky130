@@ -70,7 +70,9 @@ The picture below shows the offset and pitch of a given layer in both the X and 
 ![](images/3/10.png)
 The pins that are placed in a standard cell cannot be at any random location. They must be placed at the intersection of the li1 and metal1 grids, to ensure that the PNR can rouute successfully.
 the following commands are entered in the tkcon window:
+
 grid 0.46um 0.34um 0.23um 0.17um
+
 grid 0.34um 0.46um 0.17um 0.23um
 This displays the grid over the layout.
 ![](images/3/11.png)
