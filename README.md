@@ -88,9 +88,14 @@ generated file:
 
 RUN CTS
 To run Clock tree Synthesis, the steps till placement have to be performed. Once this is complete cts is done as follows :
+
 ![](images/4/1.png)
+A .def file is created post CTS:
+
 ![](images/4/2.png)
 ![](images/4/3.png)
+timing analysis is done by creating a database file in OpenROAD. First you'll have to invoke OpenROAD inside OpenLANE.
+
 ![](images/4/OR.png)
 
 
