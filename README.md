@@ -74,8 +74,13 @@ the following commands are entered in the tkcon window:
 grid 0.46um 0.34um 0.23um 0.17um
 
 grid 0.34um 0.46um 0.17um 0.23um
+
 This displays the grid over the layout.
 ![](images/3/11.png)
+LEF Generation in Magic
+Magic allows for users to generate the LEF directly by using a single command in the tkcon window:
+
+Type "LEF write". This is create a LEF file.
 ![](images/3/12.png)
 ![](images/3/13.png)
 ![](images/4/1.png)
