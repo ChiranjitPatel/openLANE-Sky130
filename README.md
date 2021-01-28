@@ -121,4 +121,6 @@ Nickson Jose - VSD VLSI Engineer
 
 Kunal Ghosh - Co-founder (VSD Corp. Pvt. Ltd)
 
-Praharsha (Teaching Assistant)
+Praharsha Mahurkar(Teaching Assistant)
+
+
