@@ -19,16 +19,20 @@ Synthesis completion is shown as:
 
 # Day2-Chip floorplanning and placement
 
+Floorplan stage is followed after the sysnthesis is performed. the command for runnin floorplan is "run_floorplan"
 Floorplan Viewing in Magic
 We need to provide three files as input to imagine our floorplan in Magic:
 magic tech file, Floorplan Def file and LEF File Merged.
 This command is executed in the results/floorplan folder, the merged file is present two levels up, hence the ../../ and the def file is pressent in the floorplan folder.
 ![](images/2/floorplan_view.png)
-After executing this command, magic invokes showing us the floorplan:
+After executing this command, magic invokes, showing us the floorplan:
 ![](images/2/floor_mag.png)
 PLACEMENT
-This is done by using the run_placement command.
+The next step after floorplan is placement of standard cells. The command "run_placement" is executed after the floorplan stage is complete.
+
 ![](images/2/placement.png)
+At the end of placement cell legalization will be reported, as follows:
+![](images/2/PASS_pcment.png)
 
 Magic is again invoked to view the placement of cells, and this is done as follows:
 ![](images/2/place_view.png)
