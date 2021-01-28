@@ -117,10 +117,10 @@ The final step, routing is performed, with a routing strategy of 0, to avoid lon
 
 Acknowledgements
 
-Nickson Jose - VSD VLSI Engineer
-
 Kunal Ghosh - Co-founder (VSD Corp. Pvt. Ltd)
 
-Praharsha Mahurkar(Teaching Assistant)
+Nickson Jose - VSD VLSI Engineer
+
+Praharsha Mahurkar, Akurathi Radhika(Teaching Assistant)
 
 
