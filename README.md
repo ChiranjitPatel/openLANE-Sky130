@@ -57,8 +57,12 @@ Listing the files present in the vsdstdcelldesign library, we find that there is
 ![](images/3/6.png)
 Opening the file using the vim command:
 ![](images/3/7.png)
+To run the simulation with ngspice, invoke the ngspice tool with the spice file as input:
 ![](images/3/8.png)
+Plotting the transient analysis of the inverter, can be done by plotting the voltage vs time:
 ![](images/3/9.png)
+After this step, the rise time, fall time and propagation delay of the inverter are calculated.
+
 
 # Day 4 - Pre-layout timing analysis and importance of good clock tree
 ![](images/3/10.png)
