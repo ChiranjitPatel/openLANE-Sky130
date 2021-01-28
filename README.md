@@ -65,7 +65,10 @@ After this step, the rise time, fall time and propagation delay of the inverter 
 
 
 # Day 4 - Pre-layout timing analysis and importance of good clock tree
+The auto PNR tool will use the abstract view of the layout. the abstract view will contain only the information that is required by the PNR i.e., the metal and pin information.
+The picture below shows the offset and pitch of a given layer in both the X and Y axis. Pitch of any layer is the distance between two centers of that layer. Offset is the distance form the origin. This offset is equal to half the pitch to maintain the half DRC.
 ![](images/3/10.png)
+
 ![](images/3/11.png)
 ![](images/3/12.png)
 ![](images/3/13.png)
