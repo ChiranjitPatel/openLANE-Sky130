@@ -42,12 +42,20 @@ Magic Layout View of Inverter Standard Cell
 
 Refer to: https://github.com/nickson-jose/vsdstdcelldesign for cell files.
 
+Clone to library "vsdstdcelldesign" from Git by entering the following command:
 ![](images/3/1.png)
+This library consists of all the required files for an CMOS inverter.
 ![](images/3/2.png)
+The layout of the inverter is opened by invoking magic and feeding the .tech and .mag files.
 ![](images/3/3.png)
+
+PEX Extraction with Magic
+The extraction file is created for the layout, and it is shown in the below pictures.
 ![](images/3/4.png)
 ![](images/3/5.png)
+Listing the files present in the vsdstdcelldesign library, we find that there is a new .spice file present. This is nothing but the extracted spice file that we generated eariler.
 ![](images/3/6.png)
+Opening the file using the vim command:
 ![](images/3/7.png)
 ![](images/3/8.png)
 ![](images/3/9.png)
