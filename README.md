@@ -81,6 +81,8 @@ LEF Generation in Magic
 Magic allows for users to generate the LEF directly by using a single command in the tkcon window:
 
 Type "LEF write". This is create a LEF file.
+
+generated file:
 ![](images/3/12.png)
 ![](images/3/13.png)
 ![](images/4/1.png)
