@@ -101,9 +101,16 @@ timing analysis is done by creating a database file in OpenROAD. First you'll ha
 
 # Day 5 - Final steps for RTL2GDS
 
+This final step is to be perfored post CTS. Checking the current .def file. It must be the cts.def:
+
 ![](images/5/1.png)
+
+power Distribution Network generation, is performed by "run_pdn" command:
+
 ![](images/5/2.png)
+The pdn.def file gets created:
 ![](images/5/3.png)
+The final step, routing is performed, with a routing strategy of 0, to avoid longer time and memory useage, but with a tradeoff with violations!
 ![](images/5/4.png)
 ![](images/5/6.png)
 
