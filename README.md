@@ -68,7 +68,11 @@ After this step, the rise time, fall time and propagation delay of the inverter 
 The auto PNR tool will use the abstract view of the layout. the abstract view will contain only the information that is required by the PNR i.e., the metal and pin information.
 The picture below shows the offset and pitch of a given layer in both the X and Y axis. Pitch of any layer is the distance between two centers of that layer. Offset is the distance form the origin. This offset is equal to half the pitch to maintain the half DRC.
 ![](images/3/10.png)
-
+The pins that are placed in a standard cell cannot be at any random location. They must be placed at the intersection of the li1 and metal1 grids, to ensure that the PNR can rouute successfully.
+the following commands are entered in the tkcon window:
+grid 0.46um 0.34um 0.23um 0.17um
+grid 0.34um 0.46um 0.17um 0.23um
+This displays the grid over the layout.
 ![](images/3/11.png)
 ![](images/3/12.png)
 ![](images/3/13.png)
