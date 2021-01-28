@@ -53,3 +53,25 @@ Refer to: https://github.com/nickson-jose/vsdstdcelldesign for cell files.
 ![](images/3/11.png)
 ![](images/3/12.png)
 ![](images/3/13.png)
+![](images/4/1.png)
+![](images/4/2.png)
+![](images/4/3.png)
+![](images/4/OR.png)
+
+
+# Day 5 - Final steps for RTL2GDS
+
+![](images/5/1.png)
+![](images/5/2.png)
+![](images/5/3.png)
+![](images/5/4.png)
+![](images/5/6.png)
+
+
+Acknowledgements
+
+Nickson Jose - VSD VLSI Engineer
+
+Kunal Ghosh - Co-founder (VSD Corp. Pvt. Ltd)
+
+Praharsha
